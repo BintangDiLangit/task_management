@@ -1,8 +1,6 @@
-Certainly! Below is a sample README.md file for your Laravel Task Management project:
-
----
-
 # Laravel Task Management
+
+![Image Alt Text](https://bintangmfhd.s3.ap-southeast-3.amazonaws.com/photos/1/Tech/Screenshot%202023-10-12%20at%2019.21.05.png)
 
 This is a simple web application built with Laravel for managing tasks. It allows users to create, edit, delete, and reorder tasks. Additionally, it includes a bonus feature for associating tasks with projects.
 
@@ -29,13 +27,13 @@ Make sure you have the following installed on your local environment:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/laravel-task-management.git
+    git clone https://github.com/BintangDiLangit/task_management.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd laravel-task-management
+    cd task-management
     ```
 
 3. Install the dependencies:
@@ -92,7 +90,3 @@ If you'd like to contribute to this project, please follow these steps:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Replace placeholders like `yourusername` with your actual username or organization name. Feel free to customize this README.md to better suit your project.
