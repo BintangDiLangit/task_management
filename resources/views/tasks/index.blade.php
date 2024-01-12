@@ -6,17 +6,24 @@
         <form action="{{ route('tasks.index') }}" method="GET" class="mb-3">
             <div class="form-group">
                 <label for="project">Select Project:</label>
-                <select name="project_id" id="project" class="form-control">
-                    <option value="">All Projects</option>
-                    @foreach ($projects as $project)
-                        <option value="{{ $project->id }}" {{ request('project_id') == $project->id ? 'selected' : '' }}>
-                            {{ $project->project_name }}
-                        </option>
-                    @endforeach
-                </select>
+                <div class="row">
+                    <div class="col-md-11">
+                        <select name="project_id" id="project" class="form-control">
+                            <option value="">All Projects</option>
+                            @foreach ($projects as $project)
+                                <option value="{{ $project->id }}"
+                                    {{ request('project_id') == $project->id ? 'selected' : '' }}>
+                                    {{ $project->project_name }}
+                                </option>
+                            @endforeach
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary">Filter</button>
+                    </div>
+                </div>
             </div>
             <div style="display: flex; justify-content: space-between;">
-                <button type="submit" class="btn btn-primary">Filter</button>
                 <a href="{{ route('tasks.create') }}" class="btn btn-success">Add Task</a>
             </div>
         </form>
