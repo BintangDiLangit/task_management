@@ -77,16 +77,3 @@ Make sure you have the following installed on your local environment:
 3. Delete tasks by clicking on the "Delete" button next to each task.
 4. Reorder tasks by dragging and dropping them within the list.
 5. Select a project from the dropdown menu to filter tasks by project.
-
-## Contributing
-
-If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push to your fork and submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
